@@ -1,0 +1,52 @@
+#painel {
+margin: 1em auto;  
+width: 964px;
+height: 625px;
+border-width:thin;
+border:0px solid #800;
+box-shadow: 0px 0px 0px #000; 
+background:#FFF url(../imagens/Fundo_trans.png) no-repeat center;
+}
+
+#centro {
+position:fixed;
+left:47%;
+top:53%;
+width:200px;
+height:200px;
+margin-left: -100px;
+margin-top: -100px;
+}
+
+#tabela {
+border-radius: 20px;
+-moz-border-radius: 10px;
+background:#fff;
+color: white;  
+font-weight:bold;
+font-family:Copperplate Gothic Bold;
+border:1px solid #800;
+box-shadow: 7px 7px 7px #000; 
+font-size: small;
+}
+			
+#tabela tr td input {
+color:#000;
+cursor:pointer;
+}
+         
+#input{
+border:1px solid #000000;
+border-radius: 5px;
+-moz-border-radius: 5px;
+                
+filter:alpha (opacity = 30);
+opacity: 0.3;
+background:#E2732A;
+}
+			
+.erroLogin{
+font-size: 12px;
+color:black;
+font-weight:bold;                
+}
